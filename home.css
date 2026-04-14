@@ -1,0 +1,67 @@
+main {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+section h1 {
+    color: #1b264f;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+section h2 {
+    color: #1b264f;
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 1rem;
+}
+
+section p {
+    color: #1b264f;
+    width: 90%;
+    max-width: 700px;
+    padding: 0 0 1.5rem;
+    font-size: 1.4rem;
+}
+
+section a {
+    font-size: 200%;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #1b264f;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+section a:hover {
+    color: #f8f9fa;
+    background-color: #1b264f;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.217);
+}
+
+@media (max-width: 600px) {
+    section h1 {
+        font-size: 2rem;
+        /* Shrink title on mobile */
+    }
+
+    section p {
+        font-size: 1.1rem;
+        /* Slightly smaller text */
+    }
+
+    section a {
+        font-size: 1.2rem;
+        width: 80%;
+        /* Makes button easier to tap on mobile */
+    }
+}

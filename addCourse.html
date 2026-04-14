@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/addCourse.css">
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="shortcut icon" href="../Images/Gemini_Generated_Image_jivluyjivluyjivl.png" type="Image">
+    <link rel="stylesheet" href="../fonts/Libertinus_Sans/LibertinusSans-Bold.ttf">
+    <title>Add course | Personal Course Organizer</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Personal Course Organizer
+            </div>
+            <div class="links">
+                <a href="/HTML/index.html">Home</a>
+                <a href="/HTML/myCourses.html">My Courses</a>
+                <a href="/HTML/addCourse.html">Add Course</a>
+                <a href="/HTML/contactUs.html">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="headline">
+            <h1>Add Course</h1>
+        </section>
+        <section class="form">
+            <form method="get" action="./myCourses.html">
+                <div>
+                    <label for="course-name">Course name</label>
+                    <input name="coure-name" type="text" required autofocus placeholder="e.g., Mathematics 2">
+                </div>
+                <div>
+                    <label for="course-ins">Instructor</label>
+                    <input name="course-ins" type="text" required placeholder="e.g., Dr.Mohamed">
+                </div>
+                <div>
+                    <label for="credit-hours">Credit hours</label>
+                    <input type="number" max="4" min="2" required placeholder="e.g., 2,3,4">
+                </div>
+                <div>
+                    <label for="note">Notes</label>
+                    <textarea name="notes" placeholder="write your notes here."></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" name="submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Personal Course Organizer - All Right Reserved </p>
+        <a href="https://wa.me/201020741320" target="_blank">@Mohamed Fathy</a>
+    </footer>
+</body>
